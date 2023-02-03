@@ -4,128 +4,343 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/images/logo.png" />
     <title>School of Code - Free Coding Bootcamp</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="home-page.css" />
+    <!-- ICON FROM GOOGLE -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
     <main>
-      <div class="banner-intro">
-        <h1>Launch Into Tech For Free</h1>
-        <hr />
-        <h2>Change your life. Learn to Code</h2>
-        <p>
-          We deliver free, intensive Bootcamps around the UK throughout the
-          year. Our next bootcamp is scheduled for Spring 2023, applications are
-          open now.
-        </p>
-        <button>Applu now!</button>
-      </div>
+      <section id="intro">
+        <div class="banner-intro">
+          <div class="title-container">
+            <div class="line-title-intro">
+              <h1 class="title">Launch Into Tech For Free</h1>
+            </div>
+          </div>
 
-      <div class="about">
-        <h2>What's it all about?</h2>
-        <hr />
-        <p>
-          School of Code is about opening the opportunity of tech up to
-          everyone. Our free coding bootcamp takes you from 0 to programmer and
-          launches you into a tech career with our Employer Partners. We've
-          achieved 85% employment into tech across all of our bootcamps so far,
-          including during the COVID-19 pandemic. We've come a long way since
-          our very first bootcamp. We've trained over 200 people, and are
-          looking to transform the lives of another 192 across the country
-          before April 2022. Take a look back at how it all started with our
-          Cohort 1 video.
-        </p>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/mvg3TDzaAHo"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
+          <div class="middle-intro-container">
+            <div class="intro-text-container">
+              <h2 class="sub-title">Change your life. Learn to Code</h2>
+              <p class="intro-description">
+                We deliver free, intensive Bootcamps around the UK throughout
+                the year. Our next bootcamp is scheduled for Spring 2023,
+                applications are open now.
+              </p>
+              <button class="small-btn">Apply now!</button>
+            </div>
 
-      <div class="remote">
-        <img src="/images/zoom.jpeg" alt="a zoom meeting with many people" />
-        <h2>Remote Learning!</h2>
-        <hr />
-        <p>
-          Covid-19 hit us half way through our third bootcamp, and we had to
-          immediately learn the ins and outs of learning remotely. We spent the
-          time exploring how to do it best, and we are now offering fully remote
-          and blended courses. The benefit is that we can help more people than
-          before, which helps us achieve our core value of helping more and
-          different kinds of people into tech.
-        </p>
-      </div>
+            <div class="planet-container">
+              <img class="planet" src="/images/planet_soc.png" />
+            </div>
+          </div>
 
-      <div class="how-works">
-        <h2>How It Works</h2>
-        <hr />
-        <div class="plan">
-          <img src="/images/plan_for_jobs_blue.png" alt="plan jobs logo" />
-          <p>Government funding and Employer sponsors help us get started.</p>
+          <div class="moon-container">
+            <img class="astronaut" src="/images/Astronaut-2.png" />
+            <div class="moon"></div>
+          </div>
         </div>
-        <div class="plan">
-          <img src="/images/transformation.png" alt="plan jobs logo" />
-          <p>
-            We take people on a life changing journey from complete beginner to
-            professional developer.
+      </section>
+
+      <section class="about">
+        <div class="text-about-container">
+          <div class="title-about-container">
+            <div class="about-title-line">
+              <h2 class="title-about">What's it all about?</h2>
+            </div>
+          </div>
+
+          <div class="p-container-about">
+            <p class="p-about">
+              School of Code is about opening the opportunity of tech up to
+              everyone. Our free coding bootcamp takes you from 0 to programmer
+              and launches you into a tech career with our Employer Partners.
+              We've achieved 85% employment into tech across all of our
+              bootcamps so far, including during the COVID-19 pandemic.
+            </p>
+            <p class="p-about">
+              We've come a long way since our very first bootcamp. We've trained
+              over 200 people, and are looking to transform the lives of another
+              192 across the country before April 2022.
+            </p>
+
+            <p class="p-about">
+              Take a look back at how it all started with our Cohort 1 video.
+            </p>
+          </div>
+        </div>
+
+        <div id="video-container" class="video-container">
+          <iframe
+            class="video-youtube"
+            width="70%"
+            height="75%"
+            src="https://www.youtube.com/embed/mvg3TDzaAHo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="remote">
+        <div class="remote-container">
+          <div class="image-container">
+            <img
+              class="zoom-image"
+              src="/images/zoom.jpeg"
+              alt="a zoom meeting with many people"
+            />
+          </div>
+
+          <div class="text-remote-container">
+            <div class="title-remote-container">
+              <div class="remote-title-line">
+                <h2 class="title-remote">Remote Learning!</h2>
+              </div>
+            </div>
+
+            <div class="p-remote-container">
+              <p class="p-remote">
+                Covid-19 hit us half way through our third bootcamp, and we had
+                to immediately learn the ins and outs of learning remotely.
+              </p>
+              <p class="p-remote">
+                We spent the time exploring how to do it best, and we are now
+                offering fully remote and blended courses.
+              </p>
+              <p class="p-remote">
+                The benefit is that we can help more people than before, which
+                helps us achieve our core value of helping more and different
+                kinds of people into tech.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-works">
+        <div class="title-work-container">
+          <div class="work-title-line">
+            <h2 class="how-it-works-title">How It Works</h2>
+          </div>
+        </div>
+
+        <div class="big-card-container">
+          <div class="cards-plan-container">
+            <!-- CARD PLAN 01 -->
+            <div class="card-plan">
+              <img
+                id="image-01"
+                class="plan-work-img"
+                src="/images/plan_for_jobs_blue.png"
+                alt="plan jobs logo"
+              />
+              <p class="works-p">
+                Government funding and Employer sponsors help us get started.
+              </p>
+            </div>
+            <!-- CARD PLAN 02 -->
+            <div class="card-plan">
+              <img
+                class="plan-work-img"
+                src="/images/transformation.png"
+                alt="plan jobs logo"
+              />
+              <p class="works-p">
+                We take people on a life changing journey from complete beginner
+                to professional developer.
+              </p>
+            </div>
+            <!-- CARD PLAN 03 -->
+            <div class="card-plan">
+              <img
+                class="plan-work-img"
+                src="/images/announcement.png"
+                alt="plan jobs logo"
+              />
+              <p class="works-p">
+                We work with our Employer Partners who pay an employer pledge
+                when they hire someone from the course.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bootcamp-about">
+        <div class="title-about-bootcamper-container">
+          <div class="line-about-cont">
+            <h2 class="bot-about-title">About the Bootcamp</h2>
+          </div>
+        </div>
+
+        <div class="text-about-bootcamper-container">
+          <p class="p-bot-about">
+            School of Code offers free intensive and flexible coding courses
+            open to applicants of all backgrounds.
+          </p>
+          <p class="p-bot-about">
+            You don’t need to have any previous technical experience or any
+            qualifications. All you need is motivation, and to like solving
+            problems!
+          </p>
+          <p class="p-bot-about">
+            School of Code's purpose is to give everyone a route into
+            technology, and teach them the skills they need to leap into the
+            industry.
+          </p>
+          <p class="p-bot-about">
+            The rise in automation will have a dramatic impact on the job
+            market. We aim to prepare people with the tech skills and soft
+            skills to become collaborative, creative coders.
+          </p>
+          <p class="p-bot-about">
+            We've helped hundreds of people completely change their lives for
+            the better, and launch tech careers by preparing them with the
+            skills and mindset they need to succeed.
           </p>
         </div>
-        <div class="plan">
-          <img src="/images/announcement.png" alt="plan jobs logo" />
-          <p>
-            We work with our Employer Partners who pay an employer pledge when
-            they hire someone from the course.
-          </p>
+      </section>
+
+      <section class="graduates-slide-container">
+        <div class="graduate-title-container">
+          <div class="blue-graduates-line">
+            <h1 class="graduates-title">Our Graduates</h1>
+          </div>
         </div>
-      </div>
 
-      <div
-        class="bootcamp-about"
-        style="background-image: url('images/workshops.png')"
-      >
-        <h2>About the Bootcamp</h2>
-        <hr />
-        <p>
-          School of Code offers free intensive and flexible coding courses open
-          to applicants of all backgrounds.<br />
+        <div class="card-graduate-container">
+          <div class="left-graduate">
+            <h3 class="name-graduate">Clare Streets</h3>
+            <p class="their-old-job">
+              Live at home mum turned Business Analyst
+            </p>
+            <p class="message">“School of Code Bootcamp is lifechanging.”</p>
+            <p id="text" class="review">
+              The School of Code Bootcamp provides so much more than just
+              software development training. It's an all-encompassing
+              introduction to the tech industry and its network gives it the
+              edge in making it a job ready experience. It’s very intensive and
+              requires great commitment but worth every moment. Entirely life
+              changing experience.
+            </p>
+          </div>
+          <!-- Other side -->
+          <div class="right-graduate">
+            <img
+              id="image"
+              class="graduate-image"
+              src="/images/clare.png"
+              alt="clare profile photo"
+            />
+          </div>
 
-          You don’t need to have any previous technical experience or any
-          qualifications. All you need is motivation, and to like solving
-          problems!<br />
-
-          School of Code's purpose is to give everyone a route into technology,
-          and teach them the skills they need to leap into the industry.<br />
-
-          The rise in automation will have a dramatic impact on the job market.
-          We aim to prepare people with the tech skills and soft skills to
-          become collaborative, creative coders.<br />
-
-          We've helped hundreds of people completely change their lives for the
-          better, and launch tech careers by preparing them with the skills and
-          mindset they need to succeed.
-        </p>
-      </div>
-
-      <div class="graduates">
-        <h2>Our Graduates</h2>
-        <hr />
-        <button>Read More</button>
-      </div>
-
-      <div class="course">
-        <div class="card">
-          <img src="images/free_bootcamp.png" alt="free bootcamp" />
-          <h3>Cost</h3>
-          <p>School of Code is completely free for the bootcampers!</p>
+          <div class="readMore-cont">
+            <button class="readMore">
+              <span class="material-symbols-outlined">
+                subdirectory_arrow_right
+              </span>
+            </button>
+            <a class="readmore-link" href="#">
+              <span class="read">Read More</span>
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <button>Apply now!</button>
+      <section class="course">
+        <div class="big-course-container">
+          <div class="course-cont-title">
+            <div class="course-line-title">
+              <h2 class="title-course">The Course</h2>
+            </div>
+          </div>
+
+          <div class="big-container-cards">
+            <div class="card-container">
+              <!-- <CARD 01> -->
+              <div class="card">
+                <img
+                  class="image-card"
+                  src="/images/free_bootcamp.png"
+                  class="image-card"
+                />
+                <div class="cont-text">
+                  <h3>Cost</h3>
+                  <p class="description-card">
+                    School of Code is completely free for the bootcampers!
+                  </p>
+                </div>
+              </div>
+              <!-- <CARD 02> -->
+              <div class="card">
+                <img
+                  class="image-card"
+                  src="/images/curriculum.png"
+                  class="image-card"
+                />
+                <div class="cont-text">
+                  <h3>Curriculum</h3>
+                  <p class="description-card">
+                    Learn to code in a highly supportive and collaborative
+                    environment.
+                  </p>
+                </div>
+              </div>
+              <!-- <CARD 03> -->
+              <div class="card">
+                <img
+                  class="image-card"
+                  src="/images/everyone_welcome.png"
+                  class="image-card"
+                />
+                <div class="cont-text">
+                  <h3>Everyone Welcome</h3>
+                  <p class="description-card">
+                    They say one size fits all doesn't work, but School of Code
+                    truly is for everyone!
+                  </p>
+                </div>
+              </div>
+              <!-- <CARD 04> -->
+              <div class="card">
+                <img
+                  class="image-card"
+                  src="/images/workshops_noFade.png"
+                  class="image-card"
+                />
+                <div class="cont-text">
+                  <h3>Hands-on Workshops</h3>
+                  <p class="description-card">
+                    Learn with hands-on help from the best in the business!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="button-apply">
+        <div class="container-btn">
+          <button class="ApplyButton">
+            <a
+              href="https://schoolofcode.typeform.com/to/Z3hPHtcO?typeform-source=www.schoolofcode.com"
+              class="ApplyButtonLink"
+            >
+              Apply now!
+            </a>
+          </button>
+        </div>
+      </section>
     </main>
+
+    <script src="datacards.js"></script>
   </body>
 </html>
